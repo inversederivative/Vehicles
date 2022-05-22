@@ -10,12 +10,16 @@ int main()
     Truck* f150;
     f150 = new Truck("Ford", "F-150");
 
+    Vehicle* van;
+    van = new Vehicle("Ford", "Econoline");
 
     //cout << car->getMake() << endl;
     //cout << truck->getModel() << endl;
 
     audi->drive();
     f150->drive();
+
+    van->drive();
 
     return(0);
 }
