@@ -4,18 +4,18 @@ using namespace std;
 
 int main()
 {
-    Car* car;
-    car = new Car("Audi", "A6");
+    Car* audi;
+    audi = new Car("Audi", "A6");
 
-    Truck* truck;
-    truck = new Truck("Ford", "F-150");
+    Truck* f150;
+    f150 = new Truck("Ford", "F-150");
 
 
     //cout << car->getMake() << endl;
     //cout << truck->getModel() << endl;
 
-    car->drive();
-    truck->drive();
+    audi->drive();
+    f150->drive();
 
     return(0);
 }
