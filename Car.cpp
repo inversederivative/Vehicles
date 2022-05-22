@@ -33,15 +33,9 @@ Car::~Car() {
  *  for the car, the string is "The <Make> <Model> goes fast!!!"
  */
 void Car::drive() {
-
-
-    // TODO: Fix Bug... see main
-
     cout << "The ";
-    Car::getMake();
-    cout << " ";
-    Car::getModel();
-    cout << " goes fast!!!" << endl;
+    Car::outputMakeAndModel();
+    cout << " goes super fast!!!" << endl;
 }
 
 

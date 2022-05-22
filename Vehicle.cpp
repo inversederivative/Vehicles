@@ -19,7 +19,7 @@ Vehicle::Vehicle(string make, string model) {
  * It simply displays the make and model of a particular vehicle.
  */
 void Vehicle::outputMakeAndModel() {
-    cout << Vehicle::getMake() << " " << Vehicle::getModel() << endl;
+    cout << Vehicle::getMake() << " " << Vehicle::getModel();
 }
 
 

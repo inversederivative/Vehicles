@@ -24,13 +24,8 @@ Truck::Truck(string make, string model) : Vehicle(make, model)
  *  for the truck, the string is "The <Make> <Model> goes so freaking slow!!!"
  */
 void Truck::drive() {
-
-    // TODO: Fix Bug... see main
-
     cout << "The ";
-    Truck::getMake();
-    cout << " " <<
-    Truck::getModel();
+    Truck::outputMakeAndModel();
     cout << " goes so freaking slow!!!" << endl;
 }
 
