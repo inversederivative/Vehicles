@@ -1,0 +1,2 @@
+add_executable(Catch_tests_run TestTest.cpp)
+target_link_libraries(Catch_tests_run Vehicles_lib)

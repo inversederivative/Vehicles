@@ -1,0 +1,13 @@
+C:\Users\snake\AppData\Local\JetBrains\CLion2022.1\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/cygdrive/c/Users/snake/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/ninja/cygwin/ninja.exe -G Ninja -S /cygdrive/c/Users/snake/CLionProjects/Vehicles -B /cygdrive/c/Users/snake/CLionProjects/Vehicles/cmake-build-debug
+-- Configuring done
+CMake Error at Catch_tests/CMakeLists.txt:1 (add_executable):
+  Cannot find source file:
+
+    ConverterTests.cpp
+
+
+CMake Error at Catch_tests/CMakeLists.txt:1 (add_executable):
+  No SOURCES given to target: Catch_tests_run
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
